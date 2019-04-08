@@ -41,7 +41,7 @@ VsCode==>CodeRunner for deitel
 CodeBlocks==>for Ds Malik
 **All solutions compiled with gcc:**  `g++ -o main *.cpp -g -Wall -pipe -O3 --std=c++14 -lm`
 
-### Chapter list
+### Chapter list for Deitel
 > - **Chapter 1** - Introduction to Computers and C++
 > - **Chapter 2** - [Introduction to C++ Programming]
 > - **Chapter 3** - [Introduction to Classes, Objects and Strings]
@@ -67,11 +67,23 @@ CodeBlocks==>for Ds Malik
 > - **Chapter 23** - Boost Libraries, Technical Report I and C++0x
 > - **Chapter 24** - Other Topics
 
+### TASK list for Malik
+> - **Chapter 1** - clockType,persontype,fruitJuiceMachine,stackType
+> - **Chapter 2** - Building manual linkedStackType class
+> - **Chapter 3** - Building manual unorderedLinkedListStackType
+> - **Chapter 4** - LinkedListType and LinkedListType from C++ library <list>
+> - **Chapter 5** - Build using abstract class linkedListType
+> - **Chapter 6** - Build using derived class orderedLinkedListType
+> - **Chapter 7** - Build using derived class UnorderedLikedListType
+
+
+
 
 ### Todos
 
- - Write MORE Tests
- - Add Night Mode
+ - Write Code
+ - Write test file for some of them
+ - Add more books
 
 License
 ----
