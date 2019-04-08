@@ -84,6 +84,9 @@ CodeBlocks==>for Ds Malik
  - Write Code
  - Write test file for some of them
  - Add more books
+### THANKS
+Special thank you for Siidney Watson and Ian Scahfer
+This repo cant be done without them
 
 License
 ----
