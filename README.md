@@ -6,9 +6,11 @@
 C++ source codes from book we have used:
 
   - C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel
+  
   ![](https://images-na.ssl-images-amazon.com/images/I/51vjUIGh2IL._SX380_BO1,204,203,200_.jpg) 
 
   - Data Structures Using C++ by D.S. Malik
+  
   ![](https://images-na.ssl-images-amazon.com/images/I/51kYOkl5dSL._SX402_BO1,204,203,200_.jpg ) 
 
 
