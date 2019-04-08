@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1518914531 source:c:\users\ian\desktop\malik exercises\ch1_fruitjuicemachine\dispensertypeimp.cpp
+	<iostream>
+	"dispenserType.h"
+
+1518914524 c:\users\ian\desktop\malik exercises\ch1_fruitjuicemachine\dispensertype.h
+
+1518914537 source:c:\users\ian\desktop\malik exercises\ch1_fruitjuicemachine\mainprogjuicemachine.cpp
+	<iostream>
+	"cashRegister.h"
+	"dispenserType.h"
+
+1518914512 c:\users\ian\desktop\malik exercises\ch1_fruitjuicemachine\cashregister.h
+
+1518914518 source:c:\users\ian\desktop\malik exercises\ch1_fruitjuicemachine\cashregisterimp.cpp
+	<iostream>
+	"cashRegister.h"
+

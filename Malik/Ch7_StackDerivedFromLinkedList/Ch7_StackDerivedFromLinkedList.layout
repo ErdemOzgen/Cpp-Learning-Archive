@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="derivedLinkedStack.h" open="1" top="0" tabpos="1">
+		<Cursor position="1189" topLine="9" />
+	</File>
+	<File name="linkedListType.h" open="1" top="0" tabpos="3">
+		<Cursor position="10832" topLine="31" />
+	</File>
+	<File name="testProglinkedStack.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="176" topLine="0" />
+	</File>
+	<File name="unorderedLinkedList.h" open="1" top="1" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

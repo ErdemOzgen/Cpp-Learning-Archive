@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1518916039 source:c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlisttestprogb\testproglinkedlist.cpp
+	<iostream>
+	"newClock.h"
+	"unorderedLinkedList.h"
+
+1518916028 c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlisttestprogb\newclock.h
+	<iostream>
+
+1529693077 c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlisttestprogb\unorderedlinkedlist.h
+	"linkedList.h"
+
+1518916022 c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlisttestprogb\linkedlist.h
+	<iostream>
+	<cassert>
+
+1518916033 source:c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlisttestprogb\newclockimp.cpp
+	<iostream>
+	"newClock.h"
+

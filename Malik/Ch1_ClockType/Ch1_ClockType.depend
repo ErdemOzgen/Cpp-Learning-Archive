@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1518914436 source:c:\users\ian\desktop\malik exercises\ch1_clocktype\clocktypeimp.cpp
+	<iostream>
+	"clockType.h"
+
+1518914436 .h"
+
+1518914425 c:\users\ian\desktop\malik exercises\ch1_clocktype\clocktype.h
+
+1528234191 source:c:\users\ian\desktop\malik exercises\ch1_clocktype\main.cpp
+	<iostream>
+	"clockType.h"
+	"ConsoleOutro.h"
+
+1528236542 tro.h"
+
+1528236542 c:\users\ian\desktop\malik exercises\ch1_clocktype\consoleoutro.h
+
+1528236542 source:c:\users\ian\desktop\malik exercises\ch1_clocktype\consoleoutro.cpp
+	<windows.h>
+	"ConsoleOutro.h"
+
+1529957185 source:/home/erdem/Documents/CppCodes/Malik-master/Ch1_ClockType/clockTypeImp.cpp
+	<iostream>
+	"clockType.h"
+
+1529957185 /home/erdem/Documents/CppCodes/Malik-master/Ch1_ClockType/clockType.h
+
+1529957185 source:/home/erdem/Documents/CppCodes/Malik-master/Ch1_ClockType/ConsoleOutro.cpp
+	<windows.h>
+	"ConsoleOutro.h"
+
+1529957185 /home/erdem/Documents/CppCodes/Malik-master/Ch1_ClockType/ConsoleOutro.h
+
+1529957185 source:/home/erdem/Documents/CppCodes/Malik-master/Ch1_ClockType/main.cpp
+	<iostream>
+	"clockType.h"
+	"ConsoleOutro.h"
+

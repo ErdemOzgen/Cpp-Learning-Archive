@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1528829053 source:c:\users\ian\desktop\malik exercises\ch7_linkedstack\testproglinkedstack.cpp
+	<iostream>
+	"linkedStack.h"
+
+1518916754 c:\users\ian\desktop\malik exercises\ch7_linkedstack\linkedstack.h
+	<iostream>
+	<cassert>
+	"stackADT.h"
+
+1518916760 c:\users\ian\desktop\malik exercises\ch7_linkedstack\stackadt.h
+

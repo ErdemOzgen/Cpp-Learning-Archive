@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1529864921 source:c:\users\ian\desktop\malik exercises\ch5_orderedlinkedlist_merge_ex6_p350\consoleoutro.cpp
+	<windows.h>
+	"ConsoleOutro.h"
+
+1528236542 c:\users\ian\desktop\malik exercises\ch5_orderedlinkedlist_merge_ex6_p350\consoleoutro.h
+
+1529954700 source:c:\users\ian\desktop\malik exercises\ch5_orderedlinkedlist_merge_ex6_p350\main.cpp
+	<windows.h>
+	"ConsoleOutro.h"
+	<iostream>
+	"orderedLinkedList_v2.h"
+
+1529956071 c:\users\ian\desktop\malik exercises\ch5_orderedlinkedlist_merge_ex6_p350\orderedlinkedlist_v2.h
+	<iostream>
+	"linkedList.h"
+
+1529952893 c:\users\ian\desktop\malik exercises\ch5_orderedlinkedlist_merge_ex6_p350\linkedlist.h
+	<iostream>
+	<cassert>
+

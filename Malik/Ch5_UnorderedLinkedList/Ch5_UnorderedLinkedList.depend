@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1518915916 source:c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlist\testproglinkedlist.cpp
+	<iostream>
+	"unorderedLinkedList.h"
+
+1529691796 c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlist\unorderedlinkedlist.h
+	"linkedList.h"
+
+1518915910 c:\users\ian\desktop\malik exercises\ch5_unorderedlinkedlist\linkedlist.h
+	<iostream>
+	<cassert>
+
