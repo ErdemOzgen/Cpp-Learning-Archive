@@ -1,9 +1,9 @@
 /*
  * =====================================================================================
  *
- *       Filename:  sol02_01.cpp
+ *       Filename:  
  *
- *    Description:  Fig. 2.1 - Text-printing program
+ *    Description:  
  *
  *        Version:  1.0
  *        Created:  Thanks to github you know it
