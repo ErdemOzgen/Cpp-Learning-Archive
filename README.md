@@ -39,6 +39,7 @@ Just connect to me...
 #### Building for source
 VsCode==>CodeRunner for deitel
 CodeBlocks==>for Ds Malik
+**All solutions compiled with gcc:**  `g++ -o main *.cpp -g -Wall -pipe -O3 --std=c++14 -lm`
 ### Docker
  Comming soon
 
