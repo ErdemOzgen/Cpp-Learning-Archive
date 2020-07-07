@@ -1,4 +1,4 @@
-# C++ Learning with Deitel c++ how to program 10th edition and Data structures using C++ 2nd edition books
+# C++ Learning with Deitel C++ How to program 10th edition and Data structures using C++ 2nd edition books
 
 
 
