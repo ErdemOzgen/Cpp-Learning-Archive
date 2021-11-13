@@ -96,4 +96,13 @@ MIT
 
 
 **Free Software, Hell Yeah!**
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  
+# Buy Me Coffee
+
+<img src="img/wallet.png" width="300">
+
+``` 0xd20E868d12E3f9dA8aC396e81a2Ec628A86100aF ```
 
