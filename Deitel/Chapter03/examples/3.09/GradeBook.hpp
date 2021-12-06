@@ -15,7 +15,7 @@
  *
  * =====================================================================================
  */
-#pragma once//you can use #ifndef #define #endif but #pragma once is more simp
+#pragma once//you can use #ifndef #define #endif but #pragma once is more simple
 
 #include <iostream>
 #include <string>
