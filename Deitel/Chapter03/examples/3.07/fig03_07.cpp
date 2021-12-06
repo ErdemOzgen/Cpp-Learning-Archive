@@ -23,7 +23,7 @@ class GradeBook {
     std::string courseName;
 
  public:
-    explicit GradeBook(const/*for not change accidently name variable*/ std::string &name) { setCourseName(name); }
+    explicit GradeBook(const std::string &name /*for not change accidently name variable*/ ) { setCourseName(name); } // Explicit==> https://www.ibm.com/docs/en/i/7.3?topic=only-explicit-conversion-constructors-c
     // SETTERS
     void setCourseName(const std::string &name) { courseName = name; }
     // GETTERS
