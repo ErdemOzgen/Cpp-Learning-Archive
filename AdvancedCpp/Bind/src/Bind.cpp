@@ -1,11 +1,11 @@
 //============================================================================
 // Name        : Bind.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : ErdemOzgen
+// Version     :1.0.0
+// Copyright   : MIT License
+// Description : Bind in C++, Ansi-style
 //============================================================================
-
+//https://www.geeksforgeeks.org/bind-function-placeholders-c/
 #include <iostream>
 #include <functional>
 

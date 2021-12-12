@@ -1,5 +1,8 @@
 #include <iostream>
 #include <memory>
+// https://youtu.be/xz4XZleALBw
+// https://www.geeksforgeeks.org/smart-pointers-cpp/
+
 
 using namespace std;
 

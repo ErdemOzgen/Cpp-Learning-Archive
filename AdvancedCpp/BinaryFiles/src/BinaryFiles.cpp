@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : Binary.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : ErdemOzgen
+// Version     :1.0.0
+// Copyright   : MIT License
+// Description : Binary read  in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
@@ -11,7 +11,8 @@
 #include <string>
 using namespace std;
 
-#pragma pack(push, 1)
+#pragma pack(push, 1) //https://stackoverflow.com/a/3318475
+// https://docs.microsoft.com/en-us/cpp/preprocessor/pack?view=msvc-170#examples
 
 struct Person {
 	char name[50];

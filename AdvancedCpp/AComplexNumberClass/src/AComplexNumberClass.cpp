@@ -1,16 +1,16 @@
 //============================================================================
-// Name        : A.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : AComplexNumberClass.cpp
+// Author      : ErdemOzgen
+// Version     :1.0.0
+// Copyright   : MIT License
+// Description : Complex number
 //============================================================================
 
 #include <iostream>
 #include "Complex.h"
 
 using namespace std;
-using namespace caveofprogramming;
+using namespace ComplexNumberNamespace;
 
 int main() {
 

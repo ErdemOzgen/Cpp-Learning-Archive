@@ -1,8 +1,8 @@
 /*
  * Complex.h
  *
- *  Created on: 17 Oct 2014
- *      Author: johnwpurcell
+ *  Created on: 12/11/2021
+ *      Author: ERDEM OZGEN
  */
 
 #ifndef COMPLEX_H_
@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-namespace caveofprogramming {
+namespace ComplexNumberNamespace {
 
 class Complex {
 private:
@@ -34,6 +34,6 @@ public:
 
 ostream &operator<<(ostream &out, const Complex &c);
 
-} /* namespace caveofprogramming */
+}
 
 #endif /* COMPLEX_H_ */
