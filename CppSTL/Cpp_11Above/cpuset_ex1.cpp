@@ -7,7 +7,7 @@
 // The  cpu_set_t  data  structure  represents  a set of CPUs.  
 // CPU sets are used by sched_setaffinity(2) and similar interfaces.
 
-
+//to compile add g++ -std=c++11 -pthread
 using namespace std;
 
 int main()
