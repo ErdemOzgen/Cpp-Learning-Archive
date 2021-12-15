@@ -76,13 +76,13 @@ Create branch and push to me.
 
 ### [Chapter List for Malik](./Malik/)
 
-> - **Chapter 1** - [clockType,persontype,fruitJuiceMachine,stackType](./Malik/)
-> - **Chapter 2** - [Building manual linkedStackType class](./Malik/)
-> - **Chapter 3** - [Building manual unorderedLinkedListStackType](./Malik/)
-> - **Chapter 4** - [LinkedListType and LinkedListType from C++ library <list>](./Malik/)
-> - **Chapter 5** - [Build using abstract class linkedListType](./Malik/)
-> - **Chapter 6** - [Build using derived class orderedLinkedListType](./Malik/)
-> - **Chapter 7** - [Build using derived class UnorderedLikedListType](./Malik/)
+> - **Chapter 1** - [clockType,persontype,fruitJuiceMachine,stackType]
+> - **Chapter 2** - [Building manual linkedStackType class]
+> - **Chapter 3** - [Building manual unorderedLinkedListStackType]
+> - **Chapter 4** - [LinkedListType and LinkedListType from C++ library <list>]
+> - **Chapter 5** - [Build using abstract class linkedListType]
+> - **Chapter 6** - [Build using derived class orderedLinkedListType]
+> - **Chapter 7** - [Build using derived class UnorderedLikedListType]
 
 ### [Chapter List for Advanced C++ Source Code Examples](./AdvancedCpp/)
 
