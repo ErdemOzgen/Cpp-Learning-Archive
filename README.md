@@ -31,7 +31,7 @@ C++ source codes from book we have used:
 
 - **Boost C++ Application Development Cookbook - Second Edition**
 
-![](./img/4.jpg)
+![](./img/3.jpg)
 
 # What does this repo include ?
 
