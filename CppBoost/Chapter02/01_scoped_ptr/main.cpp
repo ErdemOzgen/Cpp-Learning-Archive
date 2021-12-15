@@ -6,7 +6,7 @@ public:
 };
 
 bool some_function1(foo_class& param);
-void some_function2(foo_class* param);
+void some_function2(foo_class* param);//https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/
 
 bool foo1() {
     foo_class* p = new foo_class("Some initialization data");
