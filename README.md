@@ -8,21 +8,30 @@
 2. [Data Structures Using C++ by D.S. Malik](./Malik/)
 3. [Advanced C++ Source Code Examples](./AdvancedCpp/)
 4. [C++ STL Library Examples](./CppSTL/)
-5. [C++ Boost Library Examples](./CppBoost/)
+5. [C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin ](./CppBoost/)
 6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
 7. [Desing Patterns in C++]()
 
 ` You can follow with the same sequence...`
 
+---
+
 C++ source codes from book we have used:
 
-- C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel
+- **C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel**
 
-![](https://images-na.ssl-images-amazon.com/images/I/51vjUIGh2IL._SX380_BO1,204,203,200_.jpg)
+![](./img/0.jpg)
 
-- Data Structures Using C++ by D.S. Malik
+- **Data Structures Using C++ by D.S. Malik**
 
-![](https://images-na.ssl-images-amazon.com/images/I/51kYOkl5dSL._SX402_BO1,204,203,200_.jpg)
+![](./img/1.jpg)
+
+- **Discovering Modern C++ (2nd edition) by Peter Gottschling**
+  ![](./img/2.jpg)
+
+- **Boost C++ Application Development Cookbook - Second Edition**
+
+![](./img/4.jpg)
 
 # What does this repo include ?
 
