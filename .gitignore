@@ -34,3 +34,4 @@
 .pro
 *.pro
 /Debug/
+.idea/
