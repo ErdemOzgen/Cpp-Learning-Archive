@@ -1,13 +1,3 @@
-/*
- * C++ Design Patterns: Adapter (Class scope)
- * Author: Jakub Vojvoda [github.com/JakubVojvoda]
- * 2016
- *
- * Source code is licensed under MIT License
- * (for more details see LICENSE)
- *
- */
-
 #include <iostream>
 
 /*
