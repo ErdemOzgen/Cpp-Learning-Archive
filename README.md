@@ -12,6 +12,7 @@
 6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
 7. [Desing Patterns in C++ TODO !!](./DesingPatterns)
 
+
 ` You can follow with the same sequence...`
 
 ---
