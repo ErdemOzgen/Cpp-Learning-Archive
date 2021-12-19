@@ -10,7 +10,8 @@
 4. [C++ STL Library Examples](./CppSTL/)
 5. [C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin ](./CppBoost/)
 6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
-7. [Desing Patterns in C++ ()]
+7. [Desing Patterns in C++ TODO !!](./DesingPatterns)
+
 
 ` You can follow with the same sequence...`
 
