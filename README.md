@@ -28,7 +28,8 @@ C++ source codes from book we have used:
 ![](./img/1.jpg)
 
 - **Discovering Modern C++ (2nd edition) by Peter Gottschling**
-  ![](./img/2.jpg)
+
+![](./img/2.jpg)
 
 - **Boost C++ Application Development Cookbook - Second Edition**
 
