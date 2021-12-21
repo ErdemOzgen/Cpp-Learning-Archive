@@ -11,7 +11,7 @@
 5. [C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin ](./CppBoost/)
 6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
 7. [Desing Patterns in C++](./DesingPatterns)
-
+8. [Goodrich, M: Data Structures and Algorithms in C++](./Goodrich/)
 
 ` You can follow with the same sequence...`
 
@@ -20,6 +20,10 @@
 C++ source codes from book we have used:
 
 ![](./img/combined.png)
+
+- **Goodrich, M: Data Structures and Algorithms in C++**
+
+![](./img/4.jpg)
 
 # What does this repo include ?
 
@@ -224,6 +228,27 @@ Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list an
 
 </details>
 
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/CppBoost">Chapter List for Goodrich, M: Data Structures and Algorithms in C++</a></summary>
+
+> - **Chapter 1** -
+> - **Chapter 2** -
+> - **Chapter 3** -
+> - **Chapter 4** -
+> - **Chapter 5** -
+> - **Chapter 6** -
+> - **Chapter 7** -
+> - **Chapter 8** -
+> - **Chapter 9** -
+> - **Chapter 10** -
+> - **Chapter 11** -
+> - **Chapter 12** -
+> - **Chapter 13** -
+> - **Chapter 14** -
+
+</details>
+
 ### TO-DO
 
 - Update Readme.
@@ -240,6 +265,8 @@ Special thank you for:
 - Ian Scahfer
 - Peter Gottschling
 - Antony Polukhin
+- Zafar (z-a-f)
+
   This repo couldn't be done without them.
 
 ## License

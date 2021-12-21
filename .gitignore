@@ -35,3 +35,5 @@
 *.pro
 /Debug/
 .idea/
+.vscode/
+cmake-build-debug/

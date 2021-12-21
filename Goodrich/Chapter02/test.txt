@@ -1,0 +1,552 @@
+
+	The Automatic Content Analysis of Spoken Discourse 
+		A Report on Work in Progress
+
+
+                          Andrew Wilson
+                           Paul Rayson
+
+         Unit for Computer Research on the English Language
+                       Lancaster University
+                          Bowland College
+                         Lancaster LA1 4YT
+                           United Kingdom
+
+
+
+1.  Introduction.  The research reported here represents a collaboration
+between the Unit for Computer Research on the English Language (UCREL)
+at Lancaster University, a London market research firm, and an
+advertising agency.  Our aim is to develop the software which will
+automatically assign semantic tags to large bodies of transcribed spoken
+interviews between market researchers and members of the public and
+perform statistical tests on the resulting tag frequency profiles.  We
+hope to bridge the gap between the limitations of response data in
+traditional large-scale quantitative research surveys using fixed
+multiple-choice questionnaires, and the lack of quantifiable and
+comparable evidence of very small scale qualitative interviews (Siddall
+and Santry, 1988). 
+
+2.  Content Analysis.  
+Traditionally, survey research has relied upon
+two techniques which have imposed their own restrictions on the data
+collected.  Quantitative research has largely relied on the use of pre-
+designed multiple-choice questionnaires which allow statistical profiles
+to be easily and quite quickly obtained because the variables are fixed,
+that is to say that the respondents may only choose from those responses
+for which the questionnaire designer has allowed.  However, this
+approach means that potentially useful and interesting responses may not
+be being collected because the respondents have no opportunity to
+express an opinion which is not included in the choice of options on the
+questionnaire.  Qualitative research --- the second technique which is
+commonly used --- involves the in-depth interviewing of individuals or
+groups.  These interviews will in general have some planned structure
+but will also be quite open and the interviewer will often follow up a
+response.  Respondents are free to answer in whatever way they like. 
+For this reason it is difficult to code and obtain reliable statistics
+from such data, and statistical reliability is also compromised by the
+amount of person hours involved in the collection and analysis of the
+interview data which means that the samples are often very small.  This
+is why such data tend to be analyzed qualitatively rather than
+quantitatively.  Clearly a compromise between the two methodologies
+would be advantageous.  We contend that this compromise may be found in
+the method of automated content analysis. 
+        Content analysis is a form of quantitative research, but it
+differs from traditional quantitative research because it can be applied
+to free text --- either spoken or written --- and so it is not bound by
+a pre-coded questionnaire.  Berelson (1952:14-15), one of the leading
+proponents of content analysis in the post-second world war period,
+collated several early definitions of content analysis.  Despite their
+age, two of these offer perhaps the most succinct and accurate
+descriptions of content analysis as it is commonly practised.  Kaplan
+(1943:230) states that `the technique known as content
+analysis...attempts to characterize the meanings in a given body of
+discourse in a systematic and quantitative fashion' whilst Leites and
+Pool (1942:1-2) are more explicit about the quantitative dimension: `it
+[content analysis] must refer either to syntactic characteristics of
+symbols...or to semantic characteristics...[and] must indicate
+frequencies of such characteristics with a high degree of precision. 
+One could perhaps define more narrowly: it must assign numerical values
+to such frequencies'.  Content analysis is thus concerned with the
+statistical analysis of primarily the semantic features of texts.  In
+practice this generally means using a given set of content categories
+such as the specimen market research categories shown in Figure 1 into
+which the words in the text are classified.  These may be chosen ad hoc
+for a particular research survey, but this will involve some initial
+effort working on the analysis system and performing the initial coding
+of words in a lexicon.  We at Lancaster hope that we have partly solved
+this problem by having two sets of tags, that is by having a more
+specific set of semantic classes which map onto the particular project's
+content tags.  The underlying assumption of content analysis is that we
+can automatically code free text with such semantic labels, and the
+frequencies will give us quantifiable data about the topics being
+raised, and the relative frequencies of different opinions.  But unlike
+qualitative research, we have a finite set of possible categories so the
+analysis may be done in a more readily quantifiable way.  This means
+that hypotheses about the semantic content of texts can be generated and
+tested with reference to standard text norms in a way which is not
+possible with traditional qualitative research. 
+    
+                ACCURACY                        ACTION
+                AFFLUENCE                       AGE 
+                AGGRESSION                      APPROACHABILITY/ENTHUSIASM 
+                APPROBATION                     APPROPRIATENESS 
+                ATTAINABLE                      AUTHENTICITY 
+                AVARICE                         BEGINNINGS 
+                CAUTION                         CHANGE IN CIRCUMSTANCE 
+                CHANGE IN NUMBER                COLOURS 
+ 
+                               Figure 1. Specimen content categories. 
+
+
+        Thus automatic content analysis combines the flexibility of
+traditional qualitative research with the statistical dimension of
+quantitative research.  It provides a source of highly flexible and
+detailed responses, but these data can be quantified, and the results
+could be compared to further studies, for example to compare the
+popularity of a certain product between one year and the next. 
+        Historically, content analysis can be traced back to 18th
+century Sweden and a careful doctrinal analysis of a hymn book by the
+Lutheran church (Dovring, 1954).  In the post- second world war period
+it gained increased acceptance as a research methodology in the social
+sciences, and in the 1960s researchers began to look to the increasingly
+accessible computer technology to do automatically what had previously
+been done by hand.  This culminated in the development of the system
+called The General Inquirer at Harvard University (Stone et al., 1966)
+which despite the development of other programs for computer-assisted
+content analysis (cf.  Tesch, 1990) has until now maintained its
+position as the most sophisticated and fully automated content analysis
+system.  In more recent years, content analysis has had to compete to a
+greater degree than before with other approaches to textual analysis in
+the social sciences but there is still considerable interest in the
+technique, especially in the market research sector (e.g.  Kassarjian,
+1977; Siddall and Santry, 1988) --- hence our joint sponsorship by a
+London market research firm.  We at Lancaster believe that more robust
+and refined technology will make content analysis a more widely used
+technique once again in other forms of social science research which
+rely on textual data.  It can be applied to any text --- written or
+spoken --- so long as the robustness of rules is checked for the new
+text type.  Thus it may find uses in the semantic analysis of many
+different kinds of natural language corpora with applications beyond
+social scientific analysis, for example for the crucial task of
+thesaural semantic annotation in information retrieval (cf.  Paice,
+1991). 
+        In Summer 1988, Lancaster carried out a pilot project to test
+the feasibility of producing an automatic content analyzer, and in May
+1990 work began on a two year project to produce such a content
+analyzer. 
+
+3.  The Lancaster Content Analyzer.  
+This section will describe the envisaged operation of the Lancaster 
+Content Analysis System. 
+        The first step is to have the spoken data transcribed into
+machine readable form.  This will be done by audio typists: details of
+prosody and other features are not required in this form of analysis. 
+Each text will be identified by a markup in Standard Generalized Markup
+Language (SGML), and divided according to the questions in the interview
+and respondent characteristics such as age, sex, social group etc.  The
+only special linguistic markup at this stage will be for phoric
+relations.  A string of references to `it' and `they', for example, is
+not very useful to the user of the system who will want to know exactly
+to what or whom a speaker is referring, but as the automatic resolution
+of anaphora is beyond the present state of the art, these will be taken
+care of by human transcribers at the transcription stage, e.g. 
+  
+        ... and the thing they fought for comes about in spite of their
+        defeat, and when it <anaphor antecedent="the thing they fought for"> 
+        comes turns out not to be what they expected ...
+
+Manual assignment of glosses will be made more efficient by using short
+markup sequences which will then be converted automatically to SGML
+form.  The data will be run through a spell checker: the system will
+fail to match misspelled words in its lexicon. 
+        The next step is to run the data through the CLAWS
+part-of-speech tagging system (Garside, Leech and Sampson, 1987), which
+assigns a part-of-speech to every lexical item or syntactic idiom in the
+text, using probabilistic Markov models of likely part-of-speech
+sequences where a word is not in the system's lexicon. 
+        The output from CLAWS is then fed into the first component of
+the semantic tagging suite.  This assigns a semantic tag or tags to each
+lexical item in the text, as can be seen in Figure 2. 
+     
+  
+        0000000 000  UH                 Yes                     Z4
+        0000000 000  PPIS1              I                       Z8
+        0000000 000  VD0                do                      A1.1
+        0000000 000  RR                 sometimes               N6
+        0000000 000  .                  .                        
+        0000000 000  APP$               My                      Z8
+        0000000 000  NN1                Avon                    Z3
+        0000000 000  NN1                lady                    S2.1
+        0000000 000  IF                 for                     Z5
+        0000000 000  DD1                this                    Z5
+        0000000 000  NN1                area                    M7 N3.6 A4.1
+        0000000 000  ,                  ,
+        0000000 000  RR                 just                    A14 T3---
+        0000000 000  VVN                called                  M1 Q1.3 Q2.2
+        0000000 000  II                 on                      Z5
+        0000000 000  APP$               my                      Z8
+        0000000 000  NN1                door                    H5
+        0000000 000  CC                 and                     Z5
+        0000000 000  VVD                asked                   Q2.2
+        0000000 000  CS                 if                      Z7
+        0000000 000  PPIS1              I                       Z8
+        0000000 000  VM                 would                   A7+
+        0000000 000  VV0                like                    E2+
+        0000000 000  TO                 to                      Z5
+        0000000 000  VV0                look                    X3.4 A8
+        0000000 000  II                 through                 Z5
+        0000000 000  AT1                a                       Z5
+        0000000 000  NN1                book                    Q4.1 I1/K5.1%
+
+                      Figure 2.  Semantically tagged text before postediting. 
+ 
+The tags were developed specially for this project, the aim being to
+ensure that as far as possible the semantic information contained in
+them is sufficiently fine-grained so as to make mapping to another set
+of content tags for a particular research survey as easy as possible. 
+This is, of course, not as easy as it sounds: Bloomfield's famous dictum
+that `the statement of meanings is therefore the weak point in language
+study, and will remain so until human knowledge advances very far beyond
+its present state' (Bloomfield, 1933) still rings as true today as it
+did in 1933.  Semantic categorization which is thesaural in approach
+rather than based on a small set of semantic primitives will probably
+always remain a matter of some personal judgement due to the problem of
+fuzzy sets, where occasionally one sense of a particular word may be
+classified in two or more semantic categories.  However, this is
+precisely the kind of classification which is required for content
+analysis.  We have attempted to provide a categorization for the
+Lancaster analyzer which is as observationally adequate as possible to
+avoid too many potential problems in mapping to possible sets of content
+tags. 
+        The initial tagset was loosely based on Tom McArthur's Longman
+Lexicon of Contemporary English (McArthur, 1981) as this appeared to
+offer the most appropriate thesaurus type classification of word senses
+for this kind of analysis.  We have since considerably revised the
+tagset in the light of practical tagging problems met in the course of
+the research. 
+        The semantic tagset has a multi-tier structure.  There are
+currently 21 major discourse fields, subdivided, and with the
+possibility of further fine-grained subdivision in certain cases.  Each
+tag is represented by a decimal notation, the major discourse field
+being shown by a capital letter, the subdivisions by numerals, and
+further subdivisions by further numerals separated off by points, e.g. 
+A12, A5.1, S1.2.3 etc.  Figure 3 shows some examples of categories from
+the semantic tagset. 
+     
+  
+        E - EMOTIONAL ACTIONS, STATES AND PROCESSES
+        1 General
+        2 Liking
+        3 Calm/Violent/Angry
+        4 Happy/sad: 1 Happy
+                          2 Contentment
+        5 Fear/bravery/shock
+        6 Worry, concern, confident
+        
+        H - ARCHITECTURE, BUILDINGS, HOUSES AND THE HOME
+        1 Architecture and kinds of houses and buildings
+        2 Parts of buildings
+        3 Areas around or near houses
+        4 Residence
+        5 Furniture and household fittings
+        
+        L - LIFE AND LIVING THINGS
+        1 Life and living things
+        2 Living creatures generally
+        3 Plants
+ 
+          Figure 3.  Sample semantic classifications from the tagset. 
+  
+Antonymity of conceptual classifications is indicated by +/- markers on
+tags, e.g.  A5.1+ (good) and A5.1- (bad) both belong to the same
+category (A5.1) but are clearly distinguishable; comparatives and
+superlatives receive double and triple +/- markers respectively. 
+Certain words and collocational units show a clear double membership of
+categories, for example sportswear and riding boots may be members of
+the category clothing and the category sport: their basic field is
+clothing and their subsidiary connotation sport.  In certain contexts
+this information may be of little use, for example in a text about
+sport, the sport dimension will be superfluous; but in others it may be
+important.  Such cases are therefore dealt with using slash tags.  Here
+both tags are indicated and separated by a slash, e.g.  B5/K5.1 where B5
+represents clothing and personal effects, and K5.1 represents sport. 
+The end interface can search on either or both of the tags.  Closed
+class words such as prepositions and proper nouns are assigned a tag
+beginning with `Z', which indicates a grammatical bin category: of
+these, all but the proper nouns are not counted in the final statistical
+analysis, but can easily be retrieved if necessary.  Once tagged as
+such, proper nouns --- for example product names --- need to be
+extracted and counted individually in the statistical analysis. 
+        The lexicon used by this program consists of lexical items each
+of which has one syntactic tag and one or more semantic tags assigned to
+it.  In cases where a word has more than one syntactic tag, it is
+duplicated with a separate entry for each syntactic tag, for example:
+  
+  
+                        table           NN1             H5 N2 
+                        table           VV0             S7.1+ 
+                        firm            NN1             S5/I2.1 
+                        firm            VV0             O4.5 
+                        firm            JJ              O4.5 A7+
+
+                                 Figure 4.  Sample lexicon entries.
+
+        The semantic tags for each entry in the lexicon are arranged in
+approximate rank frequency order to assist in manual postediting, and to
+allow for gross automatic selection of the commonest tag, subject to
+weighting by domain of discourse (see below).  A morphology analyzer
+removes the need to store multiple forms except where these are
+semantically distinct, e.g.  the system does not require -ing and
+regular past tense forms.  Only the base form of regular conjugations
+and declensions is required, and a set of spelling rules will match the
+other forms. 
+        The system reads in the text and assigns the tag or tags
+indicated for that word and part-of-speech.  If no exact match for the
+word and syntactic tag pair is found, then morphological rules built
+into the system are used to strip away the suffix of the word.  The new
+stem becomes the search key in the second pass through the lexicon;
+however, the same syntactic tag as before should not be used.  For
+instance if the word finding with a syntactic tag VVG does not appear in
+the lexicon, the -ing ending is discarded and a search is performed for
+find with a syntactic tag VV0 to indicate that it is the base form of
+the verb.  If a match does not occur this time the syntactic tag is
+simply ignored and the appropriate semantic tags assigned, given a match
+on the lexical item alone (probabilistically this may be better than an
+unmatched search).  Failing that a special `unmatched' tag, Z99, is
+attached.  The suffix-stripping techniques used in this program reduce
+the size of the lexicon required by up to 30% as only the base form of
+regular verbs and singular form of regular nouns need to be included. 
+        There is a further list of semantic phrasal idioms such as all
+in all and up the creek without a paddle.  This list also includes
+phrasal verbs.  The use of wildcards in the idiom list entries removes
+the need to enter all the variants of a variable idiom such as kick the
+bucket, kicks the bucket, kicked the bucket etc.  Techniques similar to
+those applied to the lexicon are repeated and single-word tagging is
+corrected if a match is found, using a form of ditto tagging similar to
+that in the CLAWS system (cf.  Blackwell, 1987) which will ensure that
+the classification of an idiom is counted only once in the statistical
+output.  Discontinuity of idioms and phrasal verbs is allowed for by
+permitting intercalation of up to five words between members; for
+example, in (1)
+
+(1) Laura handed the 50 reward money over 
+
+the phrasal verb handed over is interrupted by the noun phrase the 50
+reward money.  Typically, however, the number of intercalations between
+parts of an idiom will not be so great and the program currently allows
+the user to select a maximum length of intercalation between 0 and 5
+items whilst we are working on the optimal length which will have the
+maximal effectiveness in linking items which should be linked, with the
+minimum number of erroneous links. 
+        We are attempting to perform some automatic disambiguation for
+words with more than one semantic tag.  Our initial intuition was that a
+weighting by domain of discourse would resolve a large number of cases
+of semantic ambiguity, so that if respondents have been talking a lot
+about clothing, the clothing sense of boot will be more likely than the
+vehicle part sense.  The texts would be manually pre-scanned to obtain
+an idea of what topics were being discussed, and the semantic codes for
+these fields would be entered into a file.  When the tagging program was
+run, the program would look at cases where a word in text could be given
+more than one tag, and if it found a match for one or more of the tags
+in the file it would delete all possible tags except that or those tags. 
+Some words would therefore not be disambiguated, and others would remain
+ambiguous, but with a generally smaller number of options, because the
+file matched more than one tag in the list for those particular words. 
+However, our intuitions were not confirmed.  When the program was run
+over sample texts, the overall ambiguity ratio (calculated as the
+percentage of ambiguous words and idioms in all tagged items excluding
+punctuation) fell by only around 3% from approximately 21% to 18%.  This
+reflected a large number of ambiguities which were not accounted for by
+domain of discourse; the actual domain weighting technique had an error
+rate of only around 4% of those words affected by this method. 
+        Given that this technique was in general accurate but
+compromised by lack of coverage, we have decided to augment the domain
+weighting with a rank ordering of sense likelihood for the language as a
+whole.  The tags for each lexical item and idiom have now been arranged
+in general rank frequency order, with rarity markers assigned to
+particularly rare senses, for example the noun book in the betting sense
+rather than the media/paper documents sense.  (Unfortunately due to the
+lack of published data, much of this rank ordering has had to rely on
+intuition.) The domain weighting method just described will be used to
+`promote' tags where those fields occur in the tag list, whilst the
+rarity markers will act as weights to prevent promotion of rare senses
+which were the main source of error when this method was used in
+isolation.  After promotion and weighting, the first tag in the list
+will be automatically selected for the particular word or idiom: this
+will hopefully be the most probable sense, taking into account the
+domain of discourse.  However, a large number of ambiguities in the text
+are caused by the very common verbs be, do and have, which may have
+either an auxiliary function or one or more `content' senses.  Rank
+frequency ordering in these cases is unhelpful as, for example,
+auxiliary be has approximately the same frequency of occurrence as
+content be.  Given that each of the English auxiliaries collocates with
+a particular form of the verb, we have been able to develop rules based
+on characteristic sequences of CLAWS part-of-speech tags within which
+these collocations occur, also including sequences to take account of
+tag questions.  These rules distinguish the auxiliary uses of these
+verbs with a high degree of accuracy.  In the longer term, further work
+on word sense disambiguation could look at bigram and trigram methods
+using the tag sequences on either side as the grammatical tagging system
+does, but this is beyond the time-scale of the present funding. 
+        At this stage of the program run, manual postediting takes place
+for ambiguous tags and unmatched items using software tools specially
+developed at Lancaster.  This will probably only be done in the training
+stage where the system is being run for the first time over a new
+discourse field, to improve the probability weightings for different
+word senses. 
+        There next follows a suite of programs which will make the
+Lancaster content analysis system more specific in its output than other
+attempts.  Previous analyzers such as General Inquirer have simply
+provided frequency counts on the content categories for the texts being
+studied.  However, simple frequency counts on individual categories
+cannot provide information about the referents of adjectives, whether
+and how adjectives are modified by intensifiers or downtoners, and
+whether or not assertions are negated.  We are therefore providing for a
+certain amount higher level linguistic processing which will make the
+output counts more finely-tuned and hence --- it is hoped --- more
+useful.  It should perhaps be said that this is not intended as a
+competitor to the method of a full syntactic parse and semantic
+analysis: rather, it is an attempt to link together the most important
+descriptive and modifying words in a corpus without the additional
+computation and manual intervention that the former kind of analysis
+would require. 
+        Based on the analysis of a preliminary corpus of approximately
+206,906 words of market research interviews, rules were developed for
+the following by extracting recurrent sequences of CLAWS tags and
+examining the incidence of the relevant links:--
+  
+*      Linking adjectives to the nouns they modify, e.g.
+
+        (2)     Ruth is attractive
+
+        The program will cope with scoping across Boolean and and or links.
+
+*       Linking modifiers to adjectives, e.g.
+
+        (3)     Ruth is very attractive 
+
+*      Ensuring that negative words are linked to the items which they
+       negate (cf.  Wilson, 1991), e.g.
+
+        (4)     I do not like mushrooms
+
+        This also includes transfer of negation, where in an indirect
+        statement a negative structurally negates one of a set of introductory
+        verbs (e.g. think) but semantically negates the main verb or adjective
+        in the indirect statement, e.g.
+
+        (5)     I do not think (that) asparagus is tasty
+        (6)     I do not think (that) Paula likes it 
+  
+        The links for the various kinds of relation form chains of
+relationships linking the relevant negatives, adjectives, modifiers, and
+nouns, which are interpreted and applied in producing the differential
+output from the end interface (see below).  These rules have a success
+rate of over 90% when run over raw, unedited tagged interview text.  We
+do not envisage the manual postediting of CLAWS output in the practical
+application of this system, as the degree of accuracy required in
+academic research is unlikely to be necessary or worth the additional
+person hours required in the commercial context.  With postedited texts,
+the results are even more satisfactory. 
+        At this stage the basic semantic tags are converted by general
+and specific rules to the content tags chosen for the particular
+research project being undertaken.  This will be achieved by having a
+two-level mapping procedure, for example we might have a rule that says
+all words tagged A5.1+ map into content tag 5, except for the word smart
+which maps into content tag 12. 
+        The final module is the `front end' of the system, allowing the
+user interactively to obtain frequency profiles and concordances from
+the data.  A menu system accesses the information according to various
+combinations of the respondent and question details encoded at the
+transcription stage.  Initially the user is presented with a table
+showing the absolute or relative frequency of each content tag.  The
+next level shows frequencies of each particular word grouped by tag, and
+we can then subdivide even further so that each line is the frequency of
+a word with a particular modifier (including the null modifier). 
+Modifiers and negatives can be clearly displayed so that the qualitative
+aspect is not lost in trying to lump boosters together in a numerical
+value:--
+  
+                        content tag 12          30 
+
+                        sensible                20 
+                        clever                  10 
+
+                        very sensible            6 
+                        not very sensible        7 
+                        not at all sensible      5 
+                        quite sensible           2 
+                        quite clever             5 
+                        not clever               5 
+
+                          Figure 5.  Part of envisaged statistical output.
+
+At each level of detail in the tag frequency profile, statistical
+chi-squared tests will be performed to indicate significant frequencies
+with respect to standard text norms.  The text norms will be derived
+from an initial 1.5 million word semantically analyzed and postedited
+corpus currently being collected.  Finally, the user can select an item
+in the frequency table and request a key word in context (KWIC)
+concordance, which allows the examination of the linguistic detail and
+shows the respondent data for each instance. 
+        Work is approaching the end of the current development of the
+Lancaster analyzer (April 1992).  It is hoped that by the end of summer
+1992, the analyzer described in this paper will be fully operational and
+that the advantages of this kind of semantic analysis will become clear
+as real interview texts are analyzed. 
+
+Note.  
+This research is supported by a SERC/DTI grant number IED4/1/1143
+to Prof.  G.N.  Leech, Dr.  J.A.  Thomas and Mr.  R.G.  Garside.  The
+authors would like to express their thanks to Dr.  J.A.  Thomas for her
+helpful comments on the initial manuscript. 
+
+References.  
+Berelson, B.  (1952): Content Analysis in Communication Research.  Glencoe, IL:
+The Free Press Publishers. 
+
+Blackwell, S.  (1987): `Syntax versus Orthography: Problems in the
+Automatic Parsing of Idioms'.  In: R.  Garside, G.  Leech and G. 
+Sampson (eds), The Computational Analysis of English: A Corpus-Based
+Approach.  London: Longman. 
+
+Bloomfield, L.  (1933): Language.  New York: Holt, Rinehart, Winston. 
+
+Dovring, K.  (1954): `Quantitative Semantics in 18th Century Sweden'. 
+Public Opinion Quarterly 18:4, 389-94. 
+
+Garside, R., G.  Leech and G.  Sampson.  (1987): The Computational
+Analysis of English: A Corpus-Based Approach.  London: Longman. 
+
+Kaplan, A.  (1943): `Content Analysis and the Theory of Signs'. 
+Philosophy of Science 10, 230-247. 
+
+Kassarjian, H.H.  (1977): `Content Analysis in Consumer Research'. 
+Journal of Consumer Research 4, 8-18. 
+
+Leites, N.C.  and I.  de S.  Pool.  (1942): On Content Analysis. 
+Library of Congress, Experimental Division for Study of War-Time
+Communications, Document 26. 
+
+McArthur, T.  (1981): Longman Lexicon of Contemporary English.  London:
+Longman. 
+
+Paice, C.D.  (1991): A Thesaural Model of Information Retrieval. 
+Information Processing and Management 27:5, 433-447. 
+
+Siddall, J.  and E.  Santry.  (1988): `Tabloids of Stone'.  The Market
+Research Society Conference. 
+
+Stone, P.J.  et al.  (1966): The General Inquirer: A Computer Approach
+to Content Analysis Studies in Psychology, Sociology, Anthropology and
+Political Science.  Cambridge, MA: MIT Press. 
+
+Tesch, R.  (1990): Qualitative Research: Analysis Types & Software
+Tools.  London: The Falmer Press. 
+
+Wilson, A.  (1991): `"No", "Not", and "Never" Negation in a Corpus of
+Spoken Interview Transcripts'.  Lancaster Papers in Linguistics, number
+73. 
+
+
