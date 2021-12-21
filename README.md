@@ -1,253 +1,245 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+# C++ Learning Archive
+
+## This repository contains different materials for learning and improving Cpp skills.
+
+# List of materials
+
+1. [C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel](./Deitel/)
+2. [Data Structures Using C++ by D.S. Malik](./Malik/)
+3. [Advanced C++ Source Code Examples](./AdvancedCpp/)
+4. [C++ STL Library Examples](./CppSTL/)
+5. [C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin ](./CppBoost/)
+6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
+7. [Desing Patterns in C++](./DesingPatterns)
 
 
+` You can follow with the same sequence...`
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+---
 
+C++ source codes from book we have used:
 
+- **C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel**
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
-  </a>
+![](./img/0.jpg)
 
-  <h3 align="center">Best-README-Template</h3>
+- **Data Structures Using C++ by D.S. Malik**
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
+![](./img/1.jpg)
 
+- **Discovering Modern C++ (2nd edition) by Peter Gottschling**
 
+![](./img/2.jpg)
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- **Boost C++ Application Development Cookbook - Second Edition**
 
+![](./img/3.jpg)
 
+# What does this repo include ?
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+- Important part of these books' source codes and other source code examples.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+You can also:
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- Add others book and source codes to this repo
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+### Development
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Want to contribute? Great!
 
-Use the `BLANK_README.md` to get started.
+Create branch and push to me.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### [Chapter List for Deitel](./Deitel/)
 
+> - **Chapter 1** - [Introduction to Computers and C++]
+> - **Chapter 2** - [Introduction to C++ Programming]
+> - **Chapter 3** - [Introduction to Classes, Objects and Strings]
+> - **Chapter 4** - [Control Statements: Part I]
+> - **Chapter 5** - [Control Statements: Part II]
+> - **Chapter 6** - [Functions and an Introduction to Recursion]
+> - **Chapter 7** - [Arrays and Vectors]
+> - **Chapter 8** - [Pointers]
+> - **Chapter 9** - [Classes: A Deeper Look, Part I]
+> - **Chapter 10** . [Classes: A Deeper Look, Part II]
+> - **Chapter 11** - [Operator Overloading: Class String]
+> - **Chapter 12** - [Object-Oriented Programming: Inheritance]
+> - **Chapter 13** - [Object-Oriented Programming: Polymorphism]
+> - **Chapter 14** - [Templates]
+> - **Chapter 15** - [Stream Input/Output]
+> - **Chapter 16** - [Exception Handling: A Deeper Look]
+> - **Chapter 17** - [File Processing]
+> - **Chapter 18** - [Class _string_ and String Stream Processing]
+> - **Chapter 19** - [Searching and Sorting]
+> - **Chapter 20** - [Custom Templatized Data Structures]
+> - **Chapter 21** - [Bits, Characters, C String and _structs_]
+> - **Chapter 22** - Standard Template Library (STL)
+> - **Chapter 23** - Boost Libraries, Technical Report I and C++0x
+> - **Chapter 24** - Other Topics
 
+### [Chapter List for Malik](./Malik/)
 
-### Built With
+> - **Chapter 1** - [clockType,persontype,fruitJuiceMachine,stackType]
+> - **Chapter 2** - [Building manual linkedStackType class]
+> - **Chapter 3** - [Building manual unorderedLinkedListStackType]
+> - **Chapter 4** - [LinkedListType and LinkedListType from C++ library <list>]
+> - **Chapter 5** - [Build using abstract class linkedListType]
+> - **Chapter 6** - [Build using derived class orderedLinkedListType]
+> - **Chapter 7** - [Build using derived class UnorderedLikedListType]
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+### [Chapter List for Advanced C++ Source Code Examples](./AdvancedCpp/)
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+> - WritingABitmap
+> - UsingtheHistogram
+> - ObjectInitialization
+> - CustomObjectsAsMapKeys
+> - InitializationInC11
+> - OverloadingtheDereferenceOperator
+> - Vectors
+> - StoringIterations
+> - StandardExceptions
+> - DecltypeAndTypeid
+> - DelegatingConctructors
+> - TwoDimensionalVectors
+> - AMandelbrotClass
+> - ReinterpretCast
+> - ColourHistograms
+> - InitializationInC98
+> - VectorsAndMemory
+> - StaticCast
+> - HelloWorld
+> - LambdaParametersAndReturnTypes
+> - DynamicCasts
+> - BitmapInfoHeaders
+> - IterableClasses
+> - TemplateFunctionsandTypeInference
+> - SettingPixels
+> - TheFractalAlgorithm
+> - UsingtheRGBClass
+> - StructPadding
+> - ColorTransforms
+> - ZoomingIn
+> - UsingFunctionPointersAnExample
+> - Lists
+> - RvalueReferences
+> - Complex Numbers Overview.pdf
+> - AComplexNumberClass
+> - Scaling
+> - CapturingThisWithLambdas
+> - ReadingTextFiles
+> - NestedTemplateClasses
+> - AnRGBClass
+> - SharedPointers
+> - RingBuffer
+> - LValueReferences
+> - TheZoomList
+> - AutoPointers
+> - ValidatingtheHistogram
+> - OverloadingtheLeftBitShiftOperator
+> - ImprovingtheBasicFractal
+> - ReorganisingMain
+> - LambdaExpressions
+> - Functors
+> - ObjectSlicingandPolymorphism
+> - CatchingSubclassExceptions
+> - CustomExceptions
+> - RangeBasedColoring
+> - OverloadingtheInsertionOperatorforPrinting
+> - ImplementingFractalCreator
+> - TemplateClasses
+> - EnhancedForLoop
+> - ABitmapClass
+> - InitializerLists
+> - BinaryFiles
+> - AZoomClass
+> - FunctionalTypes
+> - StacksAndQueues
+> - BitmapHeaderValues
+> - GettingPixelRanges
+> - PerfectForwarding
+> - CustomObjectsAsMapValues
+> - BitmapFileHeaders
+> - Maps
+> - BasicExceptions
+> - MutableLambdas
+> - SortingVectorsDequeFriend
+> - WritingTextFiles
+> - SpecifyingColorRanges
+> - MoveAssignmentOperators
+> - OverloadingtheAssignmentOperator
+> - FunctionPointers
+> - FractalCreatorHelloWorld
+> - OverloadingPlus
+> - ApplyingtheZoom
+> - StlComplexDataTypes
+> - CenteringandScaling
+> - OverloadingComparisonOperators
+> - TemplateFunctions1
+> - CalculatingRangeTotals
+> - MultipleInheritance
+> - TheAutoKeyword
+> - LambdaCaptureExpressions
+> - CheckingtheRangeTotals
+> - AbstractClasses
+> - ElisionandOptimization
+> - MoveConstructors
+> - Bind
+> - lValuesandrValues
+> - EliminatingMaxIterations
+> - ReadingandWritingBinaryFiles
+> - ParsingTextinFiles
+> - ConstructorsandMemory
+> - BitmapMemory
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### [Chapter List for C++ STL Library Examples](./CppSTL/)
 
+> - **Chapter 1** -
+> - **Chapter 2** -
+> - **Chapter 3** -
 
+### [Chapter List for C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin](./CppBoost/)
 
-<!-- GETTING STARTED -->
-## Getting Started
+> - **Chapter 1** -
+> - **Chapter 2** -
+> - **Chapter 3** -
+> - **Chapter 4** -
+> - **Chapter 5** -
+> - **Chapter 6** -
+> - **Chapter 7** -
+> - **Chapter 8** -
+> - **Chapter 9** -
+> - **Chapter 10** -
+> - **Chapter 11** -
+> - **Chapter 12** -
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### [Chapter List for Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
 
-### Prerequisites
+> - **Chapter 1** C++03
+> - **Chapter 2** C++11
+> - **Chapter 3** C++14
+> - **Chapter 4** C++17
+> - **Chapter 5** C++20
+> - **Chapter 6** C++20vs
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+### THANKS
 
-### Installation
+Special thank you for:
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+- Sidney Watson
+- Ian Scahfer
+- Peter Gottschling
+- Antony Polukhin
+  This repo couldn't be done without them.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```js
-const API_KEY = 'ENTER YOUR API';
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-- [ ] Chinese
-- [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+MIT
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+**Free Software, Hell Yeah!**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Buy Me Coffee
 
-<!-- CONTACT -->
-## Contact
+<img src="img/wallet.png" width="300">
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+`0xd20E868d12E3f9dA8aC396e81a2Ec628A86100aF`
