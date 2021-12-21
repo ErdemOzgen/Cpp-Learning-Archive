@@ -228,6 +228,10 @@ Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list an
 
 - Update Readme.
 
+### Contributors
+- <a href="https://github.com/ErdemOzgen">ErdemOzgen</a>
+- <a href="https://github.com/sufuk">sufuk</a>
+
 ### THANKS
 
 Special thank you for:
@@ -247,7 +251,6 @@ MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Buy Me Coffee
-
-<img src="img/wallet.png" width="300">
+![](./img/wallet.png)
 
 `0xd20E868d12E3f9dA8aC396e81a2Ec628A86100aF`
