@@ -28,7 +28,7 @@ C++ source codes from book we have used:
 - Challenge projects.
 
 
-Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list and start helping!!
+Doesn't seem enough? Then choose an item from our issues and start helping!!
 
 ## Content:
 <details>
@@ -245,13 +245,7 @@ Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list an
 
 </details>
 
-### TO-DO
 
-- Update Readme.
-
-### Contributors
-- <a href="https://github.com/ErdemOzgen">ErdemOzgen</a>
-- <a href="https://github.com/sufuk">sufuk</a>
 
 ### THANKS
 
