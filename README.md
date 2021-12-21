@@ -19,41 +19,21 @@
 
 C++ source codes from book we have used:
 
-- **C++ How to Program (10th Edition) by Paul Deitel and Harvey Deitel**
-
-![](./img/0.jpg)
-
-- **Data Structures Using C++ by D.S. Malik**
-
-![](./img/1.jpg)
-
-- **Discovering Modern C++ (2nd edition) by Peter Gottschling**
-
-![](./img/2.jpg)
-
-- **Boost C++ Application Development Cookbook - Second Edition**
-
-![](./img/3.jpg)
-
-- **Goodrich, M: Data Structures and Algorithms in C++**
-
-![](./img/4.jpg)
+![](./img/combined.png)
 
 # What does this repo include ?
 
-- Important part of these books' source codes and other source code examples.
+- Examples based on reference books.  
+- Detailed explanations for source codes.
+- Challenge projects.
 
-You can also:
 
-- Add others book and source codes to this repo
+Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list and start helping!!
 
-### Development
+## Content:
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/Deitel/">Chapter List for Deitel</a></summary>
 
-Want to contribute? Great!
-
-Create branch and push to me.
-
-### [Chapter List for Deitel](./Deitel/)
 
 > - **Chapter 1** - [Introduction to Computers and C++]
 > - **Chapter 2** - [Introduction to C++ Programming]
@@ -80,7 +60,10 @@ Create branch and push to me.
 > - **Chapter 23** - Boost Libraries, Technical Report I and C++0x
 > - **Chapter 24** - Other Topics
 
-### [Chapter List for Malik](./Malik/)
+</details>
+  <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/Malik">Chapter List for Malik</a></summary>
 
 > - **Chapter 1** - [clockType,persontype,fruitJuiceMachine,stackType]
 > - **Chapter 2** - [Building manual linkedStackType class]
@@ -90,7 +73,11 @@ Create branch and push to me.
 > - **Chapter 6** - [Build using derived class orderedLinkedListType]
 > - **Chapter 7** - [Build using derived class UnorderedLikedListType]
 
-### [Chapter List for Advanced C++ Source Code Examples](./AdvancedCpp/)
+
+</details>
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/AdvancedCpp">Chapter List for Advanced C++ Source Code Examples</a></summary>
 
 > - WritingABitmap
 > - UsingtheHistogram
@@ -194,13 +181,20 @@ Create branch and push to me.
 > - ConstructorsandMemory
 > - BitmapMemory
 
-### [Chapter List for C++ STL Library Examples](./CppSTL/)
+</details>
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/CppSTL">Chapter List for C++ STL Library Examples</a></summary>
 
 > - **Chapter 1** -
 > - **Chapter 2** -
 > - **Chapter 3** -
 
-### [Chapter List for C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin](./CppBoost/)
+</details>
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/CppBoost">Chapter List for C++ Boost Library Examples / Boost C++ Application Development Cookbook by Antony Polukhin</a></summary>
+
 
 > - **Chapter 1** -
 > - **Chapter 2** -
@@ -215,7 +209,11 @@ Create branch and push to me.
 > - **Chapter 11** -
 > - **Chapter 12** -
 
-### [Chapter List for Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
+</details>
+
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/CppBoost">Chapter List for Discovering Modern C++ (2nd edition) by Peter Gottschling/ Boost C++ Application Development Cookbook by Antony Polukhin</a></summary>
 
 > - **Chapter 1** C++03
 > - **Chapter 2** C++11
@@ -224,7 +222,11 @@ Create branch and push to me.
 > - **Chapter 5** C++20
 > - **Chapter 6** C++20vs
 
-### [Goodrich, M: Data Structures and Algorithms in C++](./Goodrich/)
+</details>
+
+ <br>
+<details>
+<summary><a href="https://github.com/ErdemOzgen/Cpp-Learning-Archive/blob/master/CppBoost">Chapter List for Goodrich, M: Data Structures and Algorithms in C++</a></summary>
 
 > - **Chapter 1** -
 > - **Chapter 2** -
@@ -240,6 +242,16 @@ Create branch and push to me.
 > - **Chapter 12** -
 > - **Chapter 13** -
 > - **Chapter 14** -
+
+</details>
+
+### TO-DO
+
+- Update Readme.
+
+### Contributors
+- <a href="https://github.com/ErdemOzgen">ErdemOzgen</a>
+- <a href="https://github.com/sufuk">sufuk</a>
 
 ### THANKS
 
@@ -262,7 +274,6 @@ MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Buy Me Coffee
-
-<img src="img/wallet.png" width="300">
+![](./img/wallet.png)
 
 `0xd20E868d12E3f9dA8aC396e81a2Ec628A86100aF`
