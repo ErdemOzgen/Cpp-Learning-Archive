@@ -21,10 +21,6 @@ C++ source codes from book we have used:
 
 ![](./img/combined.png)
 
-- **Goodrich, M: Data Structures and Algorithms in C++**
-
-![](./img/4.jpg)
-
 # What does this repo include ?
 
 - Examples based on reference books.  
