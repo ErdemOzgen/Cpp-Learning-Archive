@@ -28,7 +28,7 @@ C++ source codes from book we have used:
 - Challenge projects.
 
 
-Doesn't seem enough? Then choose an item from our to-do list and start helping!!
+Doesn't seem enough? Then choose an item from our [to-do](README.md:227) list and start helping!!
 
 ## Content:
 <details>
@@ -223,6 +223,10 @@ Doesn't seem enough? Then choose an item from our to-do list and start helping!!
 > - **Chapter 6** C++20vs
 
 </details>
+
+### TO-DO
+
+- Update Readme.
 
 ### THANKS
 
