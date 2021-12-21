@@ -12,7 +12,6 @@
 6. [Discovering Modern C++ (2nd edition) by Peter Gottschling](./DiscoveringModernCpp/)
 7. [Desing Patterns in C++ TODO !!](./DesingPatterns)
 
-
 ` You can follow with the same sequence...`
 
 ---
@@ -33,6 +32,10 @@ C++ source codes from book we have used:
 - **Boost C++ Application Development Cookbook - Second Edition**
 
 ![](./img/3.jpg)
+
+- **Goodrich, M: Data Structures and Algorithms in C++**
+
+![](./img/4.jpg)
 
 # What does this repo include ?
 
@@ -227,6 +230,8 @@ Special thank you for:
 - Ian Scahfer
 - Peter Gottschling
 - Antony Polukhin
+- Zafar (z-a-f)
+
   This repo couldn't be done without them.
 
 ## License
