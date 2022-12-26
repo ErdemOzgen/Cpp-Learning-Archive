@@ -18,8 +18,12 @@
 #include <iostream>
 #include <string>
 static int i=0;
-void printDigits(int);//function protype  https://codescracker.com/cpp/cpp-function-definition.htm
-
+void printDigits(int);//function prototype  https://codescracker.com/cpp/cpp-function-definition.htm
+/**
+ * A function prototype is a declaration in C and C++ of a function,
+ * its name, parameters and return type before its actual declaration. 
+ * This enables the compiler to perform more robust type checking
+*/
 int main(int argc, const char *argv[]) {
     int num;
      
