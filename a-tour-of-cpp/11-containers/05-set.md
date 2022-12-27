@@ -1,0 +1,2 @@
+- A `set is a `map` with **just a key and no value**;
+- A `multiset` is a `set` in which a value can occur *many times*

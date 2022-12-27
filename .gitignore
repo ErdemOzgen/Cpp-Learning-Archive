@@ -37,3 +37,8 @@
 .idea/
 .vscode/
 cmake-build-debug/
+*/test.cpp
+*/test
+*/test.h
+test.cpp
+test
